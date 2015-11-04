@@ -38,7 +38,7 @@ def getBPPM(sequence, structure = "", bppm_cutoff = 0.00001):
 def getAccuracy(struct_dict, bppm):
     """
         Calculate average structuredness of given structure(stack) within bppm
-        struct 
+        struct_dict is a dictionary of form  struct_dict[i] = j indicating the base pair (i,j)|i<j wihtin the bppm 
 
     """
     acc = 0
